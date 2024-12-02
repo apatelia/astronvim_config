@@ -1,34 +1,39 @@
-# AstroNvim Template
+# AstroNvim Config
 
 **NOTE:** This is for AstroNvim v4+
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
-
 ## 🛠️ Installation
 
-#### Make a backup of your current nvim and shared folder
+If you want to install `astronvim` as the only nvim installation, then refer to [Installation](https://docs.astronvim.com/#-installation).
+
+Make sure you change the clone url to the url of this repo, in step 3, as shown below.
 
 ```shell
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
-mv ~/.local/state/nvim ~/.local/state/nvim.bak
-mv ~/.cache/nvim ~/.cache/nvim.bak
+git clone --depth 1 https://github.com/apatelia/astronvim_config.git ~/.config/nvim
 ```
 
-#### Create a new user repository from this template
+Also, you do not need to follow the steps below. Follow the steps from installation guide linked above.
 
-Press the "Use this template" button above to create a new repository to store your user configuration.
+Steps below assumes that you want to use `astronvim` as an additional `nvim` distro.
 
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
+#### Install as an alternative installation, so we can keep our original 'nvim' config intact.
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+# With https
+git clone https://github.com/apatelia/astronvim_config.git ~/.config/astronvim
 ```
 
-#### Start Neovim
+#### Start nvim with NVIM_APPNAME environment variable set to 'astronvim'
 
 ```shell
-nvim
+NVIM_APPNAME=astronvim nvim
+```
+
+#### Alternatively, you can set an alias for above command in your '.bashrc', '.zshrc' etc.
+
+```shell
+alias astronvim="NVIM_APPNAME=astronvim nvim"
+
+# or a shorter one ;)
+alias av="NVIM_APPNAME=astronvim nvim"
 ```
