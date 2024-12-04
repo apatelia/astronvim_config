@@ -1,7 +1,7 @@
 return {
   {
     "cutlass.nvim",
-    enabled = false,
+    enabled = true,
     opts = {
       cut_key = "x",
       override_del = true,
