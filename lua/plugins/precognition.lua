@@ -1,7 +1,7 @@
 return {
   "tris203/precognition.nvim",
   enabled = false,
-  --event = "VeryLazy",
+  event = "VeryLazy",
   opts = {
     showBlankVirtLine = true,
   },

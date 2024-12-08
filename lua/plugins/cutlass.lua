@@ -5,6 +5,6 @@ return {
     opts = {
       cut_key = "x",
       override_del = true,
-    }
-  }
+    },
+  },
 }
