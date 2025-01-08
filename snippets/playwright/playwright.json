@@ -1,0 +1,100 @@
+{
+  "testAsyncBlock": {
+    "key": "testAsyncBlock",
+    "prefix": "pwt",
+    "body": ["test('${1}', async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `asynchronous test` block",
+    "scope": "typescript,javascript"
+  },
+  "testBeforeAllBlock": {
+    "key": "testBeforeAllBlock",
+    "prefix": "pwtba",
+    "body": ["test.beforeAll(async () => {\n${0}\n});"],
+    "description": "Playwright `test.beforeAll` block",
+    "scope": "typescript,javascript"
+  },
+  "testBeforeEachBlock": {
+    "key": "testBeforeEachBlock",
+    "prefix": "pwtbe",
+    "body": ["test.beforeEach(async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.beforeEach` block",
+    "scope": "typescript,javascript"
+  },
+  "testAfterAllBlock": {
+    "key": "testAfterAllBlock",
+    "prefix": "pwtaa",
+    "body": ["test.afterAll(async () => {\n${0}\n});"],
+    "description": "Playwright `test.afterAll` block",
+    "scope": "typescript,javascript"
+  },
+  "testAfterEachBlock": {
+    "key": "testAfterEachBlock",
+    "prefix": "pwtae",
+    "body": ["test.afterEach(async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.afterEach` block",
+    "scope": "typescript,javascript"
+  },
+  "testDescribeBlock": {
+    "key": "testDescribeBlock",
+    "prefix": "pwtd",
+    "body": ["test.describe('${1}', async () => {\n${0}\n});"],
+    "description": "Playwright `test.describe` block",
+    "scope": "typescript,javascript"
+  },
+  "testFailBlock": {
+    "key": "testFailBlock",
+    "prefix": "pwtfl",
+    "body": ["test.fail('${1}', async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.fail` block",
+    "scope": "typescript,javascript"
+  },
+  "testFixMeBlock": {
+    "key": "testFixMeBlock",
+    "prefix": "pwtfm",
+    "body": ["test.fixme('${1}', async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.fixme` block",
+    "scope": "typescript,javascript"
+  },
+  "testInfoBlock": {
+    "key": "testInfoBlock",
+    "prefix": "pwtinfo",
+    "body": ["test.info(${0});"],
+    "description": "Playwright `test.info` block",
+    "scope": "typescript,javascript"
+  },
+  "testOnlyBlock": {
+    "key": "testOnlyBlock",
+    "prefix": "pwtonly",
+    "body": ["test.only('${1}', async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.only` block",
+    "scope": "typescript,javascript"
+  },
+  "testSkipBlock": {
+    "key": "testSkipBlock",
+    "prefix": "pwtskip",
+    "body": ["test.skip('${1}', async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.skip` block",
+    "scope": "typescript,javascript"
+  },
+  "testSlowBlock": {
+    "key": "testSlowBlock",
+    "prefix": "pwtslow",
+    "body": ["test.slow('${1}', async ({ ${2:page} }) => {\n${0}\n});"],
+    "description": "Playwright `test.slow` block",
+    "scope": "typescript,javascript"
+  },
+  "testStepBlock": {
+    "key": "testStepBlock",
+    "prefix": "pwtstep",
+    "body": ["test.step('${1}', async () => {\n${0}\n});"],
+    "description": "Playwright `test.step` block",
+    "scope": "typescript,javascript"
+  },
+  "testUseBlock": {
+    "key": "testUseBlock",
+    "prefix": "pwtuse",
+    "body": ["test.use({ ${0} });"],
+    "description": "Playwright `test.only` block",
+    "scope": "typescript,javascript"
+  }
+}
