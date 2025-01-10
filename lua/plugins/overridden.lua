@@ -34,7 +34,7 @@ return {
         opts.button("SPACE f o", get_icon("DefaultFile", 2, true) .. "Recents  "),
         opts.button("SPACE f w", get_icon("WordFile", 2, true) .. "Find Word  "),
         opts.button("SPACE f a", get_icon("Environment", 2, true) .. "Configuration  "),
-        opts.button("SPACE S f", get_icon("Session", 2, true) .. "Find Saved Session  "),
+        opts.button("SPACE s f", get_icon("Session", 2, true) .. "Find Saved Session  "),
         opts.button("SPACE q  ", get_icon("BufferClose", 2, true) .. "Quit  "),
       }
     end,
